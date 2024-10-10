@@ -61,7 +61,9 @@ Open your terminal and run the following commands:
      ```npm install express cors body-parser```
 
 ### 4. Project Structure
+
 /project-root
+
     /frontend
         - index.html
         - styles.css
