@@ -1,7 +1,6 @@
-# Stock Data Visualization![StonksChartGIF](https://github.com/user-attachments/assets/fded54d2-773d-4fd1-b378-7d0d1513462a)
-
-
+# Stock Data Visualization📈📈📉📉
 This project provides a web-based interface for visualizing stock data for various companies. Users can select companies, view their stock data in a chart, and download the chart as an image. The application is designed to be user-friendly and responsive, ensuring a smooth experience across various devices.
+
 
 ### Features
 
@@ -11,7 +10,7 @@ This project provides a web-based interface for visualizing stock data for vario
 - **Search Functionality**: Users can filter the list of companies using a search input.
 - **Responsive Design**: The interface adjusts gracefully to various screen sizes and animation is added when chart loads.
 
-### Technologies Used
+### Technologies Used📈📈📉📉
 
 - **HTML**: Structure of the web application.
 - **CSS**: Styling of the application.
