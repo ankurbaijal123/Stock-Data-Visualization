@@ -4,6 +4,10 @@ This project provides a web-based interface for visualizing stock data for vario
 ### DataSet used
 https://github.com/shaktids/stock_app_test/blob/main/dump.csv
 
+### Documentation
+[Stock Data Visualization Documentation.pdf](https://github.com/user-attachments/files/17331368/Stock.Data.Visualization.Documentation.pdf)
+
+
 
 ### Features📈📈📉📉
 
