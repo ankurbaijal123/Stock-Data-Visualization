@@ -1,6 +1,9 @@
 # Stock Data Visualization📈📈📉📉
 This project provides a web-based interface for visualizing stock data for various companies. Users can select companies, view their stock data in a chart, and download the chart as an image. The application is designed to be user-friendly and responsive, ensuring a smooth experience across various devices.
 
+### DataSet used
+https://github.com/shaktids/stock_app_test/blob/main/dump.csv
+
 
 ### Features📈📈📉📉
 
