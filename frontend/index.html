@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Company Stock Data</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="my-4 text-center">Stock Data Visualization</h1>
+
+        <div class="row">
+            <div class="col-md-3">
+                <h3 class = "compy">Companies</h3>
+                <input type="text" id="searchInput" class="form-control mb-3" placeholder="Search Companies" />
+                <ul id="companyList" class="list-group mb-3"></ul>
+                <button id="downloadButton" class="btn btn-danger mt-3">Download Chart</button>
+            </div>
+            
+            <div class="col-md-9 data-container">
+                <h3>Chart</h3>
+                <select id="metricSelect" class="form-select mb-3">
+                    <option value="closing_index_value">Closing Value</option>
+                    <option value="open_index_value">Opening Value</option>
+                    <option value="high_index_value">High Value</option>
+                    <option value="low_index_value">Low Value</option>
+                    <option value="points_change">Points Change</option>
+                    <option value="change_percent">Change Percentage</option>
+                    <option value="volume">Volume</option>
+                    <option value="turnover_rs_cr">Turnover (Rs Cr)</option>
+                    <option value="pe_ratio">PE Ratio</option>
+                    <option value="pb_ratio">PB Ratio</option>
+                    <option value="div_yield">Dividend Yield</option>
+                </select>
+
+                <div id="chartContainer" style="width: 100%; height: 500px;">
+                    <canvas id="companyChart" style="height: 100%;"></canvas>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
